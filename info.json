@@ -1,11 +1,11 @@
 {
   "name": "Age-of-Production",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
   "description": "Expanding Space Age with new science and machines!",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.0.41",
     "space-age >= 2.0.41",
