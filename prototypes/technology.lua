@@ -576,6 +576,14 @@ data:extend{
                   },
                   {
                     type = "unlock-recipe",
+                    recipe = "aop-calcite-synthesis"
+                  },
+                  {
+                    type = "unlock-recipe",
+                    recipe = "aop-stone-synthesis"
+                  },
+                  {
+                    type = "unlock-recipe",
                     recipe = "aop-ammoniacal-iron-synthesis"
                   },
                   {
