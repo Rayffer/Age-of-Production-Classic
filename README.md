@@ -1,7 +1,6 @@
-One day I asked myself: "Space Age adds so much! But why do I still have to smelt bricks the good old way?"
-After that, I found Hurricane's amazing textures and I decided that I'd have had to make a mod!
+# Age of Production - Classic
 
-# Age of Production
+This mod is a fork of the original [Age Of Production](https://mods.factorio.com/mod/Age-of-Production) mod before the introduction of 2.0, for those who want to keep it that way.
 
 This mod adds 20 new buildings, many new recipes, new fluids and a couple new items!
 
@@ -13,7 +12,6 @@ The new additions, per planet, are:
 
 # Vulcanus:
 - Arc Furnace: an electric furnace that is bigger, better, faster and stronger! A good 50% productivity never hurt anyone! (Unlocked after Metallurgic Science)
-- Smeltery: This highly advanced foundry can reach unthinkable temperatures, allowing for interesting new applications! From calcite-less molten metal to melting metallic intermediates, this machine may be helpful when in need of a reliable source of metal! Only 25% prod tho! (Unlocked after Quantum Processors)
 - Armory: PEW PEW SHWOONNN BOOOM! That's the sound everyone loves to hear on their space platform, but you gotta produce those bullets and rockets don't you? Well here comes the Armory, 50% prod on all ammunition! (Unlocked after Metallurgic Science and Military 4)
 
 # Nauvis:
@@ -23,9 +21,7 @@ The new additions, per planet, are:
 - Transmitter: a smaller, compact beacon that can only house one module, obviously with some good effect transmission. (Unlocked after effect transmission and space science)
 
 # Gleba:
-- Biochemical Facility: Hybridate pentapods and biters to satiate your desire for pain and suffering! This abomination can make most solid biological recipes without the need of eating! Why only solid when the machine is filled with fluids? Well... Uhm... The poor Pentapod-biter hybrid has a weak digestive system it'd feel bad if it drank something! :c Going back to the important stuff, only 25% prod! (Unlocked after Quantum Processors and Captive Biter Spawners)
 - Greenhouse: Even the engineer has a green thumb! Or is it just pentapod blood? We may never know! This calm paradise in the factory's chaos can grow plants for you. 50% prod, the usual. Gleban products can only be grown there but wood on the other hand... let's just say there will be some more oxygen in space. It even has a related infinite tech! (Unlocked after the Lumber Mill and Cryogenic Science)
-- Scrubber: This little machine will clean up all of your mistakes! Give it a catalyst and some water and it will clean up any atmosphere, only leaving sone polluting byproducts... (Unlocked after Agricultural Science, with additional recipes after unlocking Mineral Synthesis)
 
 # Fulgora:
 - Salvager: This upgraded Recycler doesn't just scrap the stuff you throw inside of it, it melts the components and then rebuilds them, sometimes with an higher quality than before! That's right, 10% quality recycler! (Unlocked after Quality Modules 3 and Carbon Fiber.)
@@ -33,7 +29,6 @@ The new additions, per planet, are:
 - Advanced Assembling Machine: Assembler-er than ever! A faster assembling machine with 10% base productivity and low energy usage! (Unlocked after Productivity Module 3, Speed Module 3, Efficiency Module 3 and Automation 3. (Yikes!))
 
 # Aquilo:
-- Electromechanic Facility: This thing. It's huge. And it can make incredible stuff... 50% base QUALITY on all armors, equipment, vehicles and bots! It can also... well if you got here you might as well read the next lines. (Unlocked after Quantum Processors.)
 - Hydraulic Plant: Ever thought producing Holmium Solution was too hard? Not anymore with a nice 50% prod over it. Same for all other fluid based recipes that aren't oil related or strictly cryogenic or electromagnetic! (Unlocked with Cryogenic Science.)
 - Mineral Synthesizer: No metals on Aquilo? Not anymore! This special machine, fusion of a chemical plant and furnace, can synthesize the metals from the Ammoniacal Sea, alongside coal, calcite and stone synthesis! 20% prod and slightly faster than a chem plant! (Unlocked after Cryogenic Science and Air Scrubbing (For its synthesis recipes!))
 
@@ -58,11 +53,9 @@ The new additions, per planet, are:
 - [Quality Biolab](https://mods.factorio.com/mod/QualityBioLab): Makes Quantum Computer's drain also scale with Quality.
 
 ### Future Plans:
-- A trailer
-- Adding more stuff maybe idk, you can suggest stuff.
-- Compatibility with other mods.
+- None, but open to additions.
 #### Buildings on the way:
-- Currently nothing! :3
+- No new buildings planned.
 #### Textures by Hurricane that most probably won't be used.
 - Conduit
 - Item, Fluid and Electricity Extractors
