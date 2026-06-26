@@ -1,40 +1,30 @@
 data:extend(
-{
   {
-    type = "recipe-category",
-    name = "advanced-centrifuging",
-  },
-  {
-    type = "recipe-category",
-    name = "quantum-assembling",
-  },
-  {
-    type = "recipe-category",
-    name = "woodworking",
-  },
-  {
-    type = "recipe-category",
-    name = "hydraulics",
-  },
-  {
-    type = "recipe-category",
-    name = "petrochemistry",
-  },
-    {
-    type = "recipe-category",
-    name = "synthesis",
-  },
-  {
-    type = "recipe-category",
-    name = "agriculture",
-  },
-  {
-    type = "recipe-category",
-    name = "core-mining"
-  },
-  {
-    type = "recipe-category",
-    name = "ammunition"
-  },
-}
+    { type = "recipe-category", name = "advanced-centrifuging" },
+    { type = "recipe-category", name = "centrifuging" },
+    { type = "recipe-category", name = "crafting" },
+    { type = "recipe-category", name = "electromechanics" },
+    { type = "recipe-category", name = "quantum-assembling" },
+    { type = "recipe-category", name = "biochemistry" },
+    { type = "recipe-category", name = "organic" },
+    { type = "recipe-category", name = "hand-crafting" },
+    { type = "recipe-category", name = "assembling" },
+    { type = "recipe-category", name = "woodworking" },
+    { type = "recipe-category", name = "hydraulics" },
+    { type = "recipe-category", name = "chemistry" },
+    { type = "recipe-category", name = "cryogenics" },
+    { type = "recipe-category", name = "petrochemistry" },
+    { type = "recipe-category", name = "oil-processing" },
+    { type = "recipe-category", name = "electronics" },
+    { type = "recipe-category", name = "pressing" },
+    { type = "recipe-category", name = "advanced-metallurgy" },
+    { type = "recipe-category", name = "scrubbing" },
+    { type = "recipe-category", name = "agriculture" },
+    { type = "recipe-category", name = "crafting-with-fluid" },
+    { type = "recipe-category", name = "metallurgy-2-the-return" },
+    { type = "recipe-category", name = "core-mining" },
+    { type = "recipe-category", name = "ammunition" },
+    { type = "recipe-category", name = "synthesis" },
+    { type = "recipe-category", name = "metallurgy" }
+  }
 )

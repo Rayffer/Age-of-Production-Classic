@@ -2,6 +2,12 @@
 data:extend({
   {
       type = "bool-setting",
+      name = "aop-specialized-science",
+      setting_type = "startup",
+      default_value = true
+  },
+  {
+      type = "bool-setting",
       name = "aop-prevent-loops",
       setting_type = "startup",
       default_value = true

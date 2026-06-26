@@ -32,6 +32,23 @@ if mods["atan-nuclear-science"] then
         end
     end
     data.raw.technology["aop-atomic-enricher"].prerequisites = {"atomic-bomb", "quantum-processor"}
+    add_crafting_categories("assembling-machine", "aop-atomic-enricher", {"centrifuging", "crafting", "quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging", "centrifuging", "electromechanics"})
+    add_crafting_categories("assembling-machine", "atan-atom-forge", {"advanced-centrifuging", "advanced-centrifuging", "centrifuging", "advanced-centrifuging", "crafting", "electromechanics", "advanced-centrifuging", "crafting-with-fluid", "quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging", "centrifuging", "electromechanics"})
+    add_crafting_categories("assembling-machine", "aop-quantum-assembler", {"quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging"})
+    add_crafting_categories("assembling-machine", "aop-electromechanic-facility", {"centrifuging", "electromechanics"})
+    add_crafting_categories("assembling-machine", "centrifuge", {"centrifuging", "electromechanics"})
+    add_crafting_categories("assembling-machine", "assembling-machine-1", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging"})
+    add_crafting_categories("assembling-machine", "assembling-machine-2", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging"})
+    add_crafting_categories("assembling-machine", "assembling-machine-3", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging"})
+    add_player_crafting_categories({"quantum-assembling", "crafting", "advanced-centrifuging"})
+    data.raw.recipe["automation-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["logistic-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["chemical-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["military-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["production-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["utility-science-pack"].categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+    data.raw.recipe["fusion-reactor-equipment"].categories = { "centrifuging", "electromechanics" }
+    data.raw.recipe["fission-reactor-equipment"].categories = { "centrifuging", "electromechanics" }
     data.raw["assembling-machine"]["atan-atom-forge"].fluid_boxes =
     {
       {
@@ -68,4 +85,52 @@ if mods["atan-nuclear-science"] then
     },
   }
   data.raw["assembling-machine"]["atan-atom-forge"].fluid_boxes_off_when_no_fluid_recipe = true
+    data:extend(
+{
+  {
+    type = "recipe-category",
+    name = "quantum-assembling", "crafting", "advanced-centrifuging",
+  },
+  {
+    type = "recipe-category",
+    name = "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging",
+  },
+  {
+    type = "recipe-category",
+    name = "centrifuging", "electromechanics",
+  },
+})
+if mods["space_age_galore"] then
+
+local exclusions = { "vgal-bulk-inserter-chemical-science-pack", "vgal-big-mining-drill-calcite-metallurgic-science-pack", "vgal-ammonia-agricultural-science-pack" } -- Add recipe names to exclude
+
+for _, recipe in pairs(data.raw.recipe) do
+    if recipe.name:find("^vgal-.*%-science%-pack$") then
+        local exclude = false
+        for _, excluded_name in ipairs(exclusions) do
+            if recipe.name == excluded_name then
+                exclude = true
+                break
+            end
+        end
+        if not exclude then
+            recipe.categories = { "quantum-assembling", "crafting", "advanced-centrifuging" }
+        end
+    end
+end
+data.raw.recipe["vgal-bulk-inserter-chemical-science-pack"].categories = { "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging" }
+end
+if mods["aai-industry"] then
+  add_crafting_categories("assembling-machine", "burner-assembling-machine", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging"})
+end
+if mods["bobassembly"] then 
+  if mods["aai-industry"] then return end
+      if settings.startup["bobmods-assembly-burner"].value then
+      add_crafting_categories("assembling-machine", "bob-burner-assembling-machine", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging"})
+      add_crafting_categories("assembling-machine", "bob-steam-assembling-machine", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging"})
+  end
+end
+if mods["aai-industry"] then
+  add_crafting_categories("assembling-machine", "burner-assembling-machine", {"centrifuging", "electromechanics", "quantum-assembling", "crafting", "advanced-centrifuging"})
+end
 end
