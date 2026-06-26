@@ -1,3 +1,10 @@
+Version: 1.9.3
+Date: 2026-06-26
+
+  Changes:
+    - Make mod incompatible with original Age Of Production
+
+---------------------------------------------------------------------------------------------------
 Version: 1.9.2
 Date: 2026-06-25
   

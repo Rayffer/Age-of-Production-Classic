@@ -1,7 +1,7 @@
 {
-  "name": "Age-of-Production",
-  "version": "1.9.1",
-  "title": "Age of Production",
+  "name": "Age-of-Production-Classic",
+  "version": "1.9.3",
+  "title": "Age of Production (Classic)",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
   "description": "Expanding Space Age with new science and machines!",
@@ -44,7 +44,8 @@
     "? aai-industry",
     "? bobassembly",
     "? Better-Power-Armor-Grid",
-    "! AoP-extended-planets"
+    "! AoP-extended-planets",
+		"! Age-of-Production"
 ],
 "space_travel_required": true
 }
