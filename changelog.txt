@@ -45,6 +45,21 @@ Date: 2026-05-29
   Notes:
     - A major update is coming. This will implement new science packs and intermediates to make the AoP buildings fit more into the game.
 ---------------------------------------------------------------------------------------------------
+Version: 1.8.4
+Date: 2026-06-26
+
+  Changes:
+    - Update mod to use Age Of Production Graphics (Classic) after adding support for Factorio 2.1
+    - Added incompatibility with original Age Of Production Graphics.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.8.3
+Date: 2026-02-03
+
+  Changes:
+    - Mod is now compatible with 2.1.
+    - Make mod incompatible with original Age Of Production
+---------------------------------------------------------------------------------------------------
 Version: 1.8.2
 Date: 2026-02-03
   Better and better:
