@@ -96,7 +96,7 @@ if mods["maraxsis"] then
     data:extend {{
             type = "recipe",
             name = "aop-maraxsian-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/maraxsian-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/maraxsian-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -130,7 +130,7 @@ if mods["maraxsis"] then
     data:extend {{
         type = "recipe",
         name = "aop-corrundumian-crushing",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/corrundumian-crushing.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/corrundumian-crushing.png",
         subgroup = "aop-core-mining",
         enabled = false,
         energy_required = 2,
@@ -167,7 +167,7 @@ if mods["maraxsis"] then
     data:extend {{
         type = "recipe",
         name = "aop-frozetan-crushing",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/frozetan-crushing.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/frozetan-crushing.png",
         subgroup = "aop-core-mining",
         enabled = false,
         energy_required = 2,
@@ -202,7 +202,7 @@ if mods["maraxsis"] then
     data:extend {{
         type = "recipe",
         name = "aop-tenebrisian-crushing",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/tenebrisian-crushing.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/tenebrisian-crushing.png",
         subgroup = "aop-core-mining",
         enabled = false,
         energy_required = 2,
@@ -261,7 +261,7 @@ if mods["maraxsis"] then
     data:extend {{
         type = "recipe",
         name = "aop-castran-crushing",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/castran-crushing.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/castran-crushing.png",
         subgroup = "aop-core-mining",
         enabled = false,
         energy_required = 2,
@@ -289,7 +289,7 @@ if mods["maraxsis"] then
     data:extend {{
             type = "recipe",
             name = "aop-mulunan-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/mulunan-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mulunan-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -372,7 +372,7 @@ if mods["maraxsis"] then
     data:extend {{
             type = "recipe",
             name = "aop-nixan-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/nixan-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/nixan-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -402,7 +402,7 @@ if mods["maraxsis"] then
         data:extend {{
             type = "recipe",
             name = "aop-lemuresian-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/lemuresian-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/lemuresian-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -425,7 +425,7 @@ if mods["maraxsis"] then
         {
             type = "recipe",
             name = "aop-prosephinan-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/prosephinan-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/prosephinan-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -455,7 +455,7 @@ if mods["maraxsis"] then
         data:extend {{
             type = "recipe",
             name = "aop-moshinean-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/moshinean-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/moshinean-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -486,7 +486,7 @@ if mods["maraxsis"] then
         data:extend {{
             type = "recipe",
             name = "aop-naufulglebunusiloan-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/naufulglebunusiloan-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/naufulglebunusiloan-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -528,7 +528,7 @@ if mods["maraxsis"] then
     data:extend {{
             type = "recipe",
             name = "aop-paracelsian-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/paracelsian-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/paracelsian-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,
@@ -550,7 +550,7 @@ if mods["maraxsis"] then
         {
     type = "recipe",
     name = "aop-paracelsian-air-scrubbing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/paracelsian-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/paracelsian-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -590,7 +590,7 @@ if mods["maraxsis"] then
 data:extend {{
             type = "recipe",
             name = "aop-jahtran-crushing",
-            icon = "__Age-of-Production-Graphics__/graphics/icons/jahtran-crushing.png",
+            icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/jahtran-crushing.png",
             subgroup = "aop-core-mining",
             enabled = false,
             energy_required = 2,

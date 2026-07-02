@@ -196,12 +196,12 @@ local function animationLayerSmeltery()
       shift = util.by_pixel(0, -16),
       stripes = {
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/smeltery/smeltery-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/smeltery/smeltery-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 7
           }
@@ -220,12 +220,12 @@ local function animationLayerCoreMiner()
       scale = 0.5,
       stripes = {
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/core-miner/core-miner-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/core-miner/core-miner-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/core-miner/core-miner-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/core-miner/core-miner-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 7
           }
@@ -244,12 +244,12 @@ local function animationLayerEMech()
       shift = util.by_pixel(0, -12),
       stripes = {
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 2
           }
@@ -268,12 +268,12 @@ local function animationLayerGreenhouse()
       scale = 0.5,
       stripes = {
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 8
           }
@@ -292,12 +292,12 @@ local function animationLayerSynth()
       scale = 0.5,
       stripes = {
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 8
           }
@@ -316,12 +316,12 @@ local function animationLayerSalvager()
         scale = 0.5,
         stripes = {
             {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/salvager/salvager-hr-animation-1.png",
                 width_in_frames = 8,
                 height_in_frames = 8
             },
             {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-animation-2.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/salvager/salvager-hr-animation-2.png",
                 width_in_frames = 8,
                 height_in_frames = 8
             }
@@ -337,7 +337,7 @@ data:extend {{
     order = "f[aop-arc-furnace]",
     pick_sound = item_sounds.steam_inventory_pickup,
     drop_sound = item_sounds.steam_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/arc-furnace.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/arc-furnace.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "vulcanus",
@@ -373,7 +373,7 @@ data:extend {{
     order = "g[aop-atomic-enricher]",
     pick_sound = item_sounds.nuclear_inventory_pickup,
     drop_sound = item_sounds.nuclear_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/atomic-enricher.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/atomic-enricher.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "nauvis",
@@ -407,7 +407,7 @@ data:extend {{
     order = "h[aop-biochemical-facility]",
     pick_sound = item_sounds.fluid_inventory_pickup,
     drop_sound = item_sounds.fluid_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/biochemical-facility.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biochemical-facility.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "gleba",
@@ -445,7 +445,7 @@ data:extend {{
     order = "h[aop-electromechanic-facility]",
     pick_sound = item_sounds.electric_large_inventory_pickup,
     drop_sound = item_sounds.electric_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/electromechanic-facility.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/electromechanic-facility.png",
     icon_size = 64,
     stack_size = 5,
     default_import_location = "aquilo",
@@ -480,7 +480,7 @@ data:extend {{
     order = "i[aop-greenhouse]",
     pick_sound = item_sounds.mechanical_large_inventory_pickup,
     drop_sound = item_sounds.mechanical_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/greenhouse.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/greenhouse.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "gleba",
@@ -515,7 +515,7 @@ data:extend {{
     order = "i[aop-hydraulic-plant]",
     pick_sound = item_sounds.fluid_inventory_pickup,
     drop_sound = item_sounds.fluid_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/hydraulic-plant.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/hydraulic-plant.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "aquilo",
@@ -557,7 +557,7 @@ data:extend {{
     order = "g[aop-lumber-mill]",
     pick_sound = item_sounds.mechanical_large_inventory_pickup,
     drop_sound = item_sounds.mechanical_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/lumber-mill.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/lumber-mill.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "nauvis",
@@ -591,7 +591,7 @@ data:extend {{
     order = "g[aop-petrochemical-facility]",
     pick_sound = item_sounds.fluid_inventory_pickup,
     drop_sound = item_sounds.fluid_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/petrochemical-facility.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/petrochemical-facility.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "fulgora",
@@ -633,7 +633,7 @@ data:extend {{
     order = "w[aop-quantum-assembler]",
     pick_sound = item_sounds.reactor_inventory_pickup,
     drop_sound = item_sounds.reactor_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-assembler.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-assembler.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "aquilo",
@@ -672,7 +672,7 @@ data:extend {{
     subgroup = "production-machine",
     pick_sound = item_sounds.reactor_inventory_pickup,
     drop_sound = item_sounds.reactor_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-computer.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-computer.png",
     icon_size = 64,
     stack_size = 1,
     default_import_location = "aquilo",
@@ -711,7 +711,7 @@ data:extend {{
     subgroup = "module",
     pick_sound = item_sounds.reactor_inventory_pickup,
     drop_sound = item_sounds.reactor_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-stabilizer.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-stabilizer.png",
     icon_size = 64,
     stack_size = 5,
     default_import_location = "aquilo",
@@ -751,7 +751,7 @@ data:extend {{
     order = "g[aop-scrubber]",
     pick_sound = item_sounds.fluid_inventory_pickup,
     drop_sound = item_sounds.fluid_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/scrubber.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/scrubber.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "gleba",
@@ -785,7 +785,7 @@ data:extend {{
     order = "f[aop-smeltery]",
     pick_sound = item_sounds.steam_inventory_pickup,
     drop_sound = item_sounds.steam_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/smeltery.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/smeltery.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "vulcanus",
@@ -823,7 +823,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/salvager.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/salvager.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "fulgora",
@@ -858,7 +858,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/advanced-assembling-machine.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/advanced-assembling-machine.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "fulgora",
@@ -896,7 +896,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/core-miner.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/core-miner.png",
     icon_size = 64,
     stack_size = 1,
     default_import_location = "vulcanus",
@@ -937,7 +937,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/armory.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/armory.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "vulcanus",
@@ -972,7 +972,7 @@ data:extend {{
     order = "i[aop-mineral-synthesizer]",
     pick_sound = item_sounds.fluid_inventory_pickup,
     drop_sound = item_sounds.fluid_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-synthesizer.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mineral-synthesizer.png",
     icon_size = 64,
     stack_size = 10,
     default_import_location = "aquilo",
@@ -1009,7 +1009,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-reactor.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biomass-reactor.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "nauvis",
@@ -1045,7 +1045,7 @@ data:extend {{
     inventory_move_sound = item_sounds.metal_large_inventory_move,
     pick_sound = item_sounds.metal_large_inventory_pickup,
     drop_sound = item_sounds.metal_large_inventory_move,
-    icon = "__Age-of-Production-Graphics__/graphics/icons/transmitter.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/transmitter.png",
     icon_size = 64,
     stack_size = 20,
     default_import_location = "nauvis",
@@ -1074,7 +1074,7 @@ data:extend {{
 {
         name = "aop-advanced-assembling-machine",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/advanced-assembling-machine.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/advanced-assembling-machine.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1151,7 +1151,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-shadow.png",
                       priority = "high",
                       width = 520,
                       height = 500,
@@ -1172,12 +1172,12 @@ data:extend {{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 5
                           }
@@ -1200,12 +1200,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 5
                                   }
@@ -1223,12 +1223,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 5
                                   }
@@ -1241,7 +1241,7 @@ data:extend {{
       },
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/advanced-assembling-machine.ogg", volume = 0.45},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/advanced-assembling-machine.ogg", volume = 0.45},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -1260,7 +1260,7 @@ data:extend {{
       {
         name = "aop-arc-furnace",
         type = "furnace",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/arc-furnace.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/arc-furnace.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1303,7 +1303,7 @@ data:extend {{
           idle_animation = {
             layers = {
               {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-shadow.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/arc-furnace/arc-furnace-hr-shadow.png",
                 size = {600, 400},
                 shift = {0, 0},
                 scale = 0.5,
@@ -1314,7 +1314,7 @@ data:extend {{
                 animation_speed = 0.25,
               },
               {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/arc-furnace/arc-furnace-hr-animation-1.png",
                 size = {320, 320},
                 shift = {0, 0},
                 scale = 0.5,
@@ -1331,7 +1331,7 @@ data:extend {{
             animation = {
               layers = {
                 {
-                  filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-animation-emission-1.png",
+                  filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/arc-furnace/arc-furnace-hr-animation-emission-1.png",
                   size = {320, 320},
                   shift = {0, 0},
                   scale = 0.5,
@@ -1349,7 +1349,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/arc-furnace.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/arc-furnace.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -1368,7 +1368,7 @@ data:extend {{
       {
         name = "aop-smeltery",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/smeltery.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/smeltery.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1444,7 +1444,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/smeltery/smeltery-hr-shadow.png",
                       priority = "high",
                       width = 900,
                       height = 800,
@@ -1478,12 +1478,12 @@ data:extend {{
                               shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/smeltery/smeltery-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/smeltery/smeltery-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 7
                                   }
@@ -1516,7 +1516,7 @@ data:extend {{
       {
         name = "aop-armory",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/armory.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/armory.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1593,7 +1593,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-shadow.png",
                       priority = "high",
                       width = 600,
                       height = 500,
@@ -1614,12 +1614,12 @@ data:extend {{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -1642,12 +1642,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -1665,12 +1665,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/armory/armory-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/armory/armory-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -1703,7 +1703,7 @@ data:extend {{
       {
         name = "aop-transmitter",
         type = "beacon",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/transmitter.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/transmitter.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1735,7 +1735,7 @@ data:extend {{
     animation = {
       layers = {
         {
-          filename = "__Age-of-Production-Graphics__/graphics/entity/transmitter/transmitter-hr-shadow.png",
+          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/transmitter/transmitter-hr-shadow.png",
           priority = "high",
           width = 400,
           height = 350,
@@ -1757,7 +1757,7 @@ data:extend {{
               shift = util.by_pixel(0, -26),
               stripes = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/transmitter/transmitter-hr-animation-1.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/transmitter/transmitter-hr-animation-1.png",
                       width_in_frames = 8,
                       height_in_frames = 3,
                   },
@@ -1775,7 +1775,7 @@ data:extend {{
               shift = util.by_pixel(0, -26),
               stripes = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/transmitter/transmitter-hr-emission-1.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/transmitter/transmitter-hr-emission-1.png",
                       width_in_frames = 8,
                       height_in_frames = 3,
                   },
@@ -1812,7 +1812,7 @@ data:extend {{
       {
         name = "aop-core-miner",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/core-miner.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/core-miner.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -1893,7 +1893,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/core-miner/core-miner-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/core-miner/core-miner-hr-shadow.png",
                       priority = "high",
                       width = 1400,
                       height = 1400,
@@ -1927,12 +1927,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/core-miner/core-miner-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/core-miner/core-miner-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/core-miner/core-miner-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/core-miner/core-miner-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 7
                                   }
@@ -1965,7 +1965,7 @@ data:extend {{
       {
         name = "aop-scrubber",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/scrubber.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/scrubber.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2079,7 +2079,7 @@ data:extend {{
           idle_animation = {
             layers = {
               {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-shadow.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/scrubber/scrubber-hr-shadow.png",
                 size = {400, 350},
                 shift = util.by_pixel(0, -16),
                 scale = 0.5,
@@ -2090,7 +2090,7 @@ data:extend {{
                 animation_speed = 0.5,
               },
               {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/scrubber/scrubber-hr-animation-1.png",
                 size = {210, 290},
                 shift = util.by_pixel(0, -16),
                 scale = 0.5,
@@ -2130,7 +2130,7 @@ data:extend {{
       {
         name = "aop-salvager",
         type = "furnace",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/salvager.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/salvager.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         fast_transfer_modules_into_module_slots_only = true,
@@ -2175,7 +2175,7 @@ data:extend {{
             animation = {
                 layers = {
                     {
-                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-shadow.png",
+                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/salvager/salvager-hr-shadow.png",
                         priority = "high",
                         width = 1200,
                         height = 700,
@@ -2209,12 +2209,12 @@ data:extend {{
                                 scale = 0.5,
                                 stripes = {
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-emission-1.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/salvager/salvager-hr-emission-1.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     },
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-emission-2.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/salvager/salvager-hr-emission-2.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     }
@@ -2258,7 +2258,7 @@ data:extend {{
       {
         name = "aop-atomic-enricher",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/atomic-enricher.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/atomic-enricher.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2335,7 +2335,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-shadow.png",
                       priority = "high",
                       width = 900,
                       height = 500,
@@ -2358,12 +2358,12 @@ data:extend {{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -2387,12 +2387,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -2411,12 +2411,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/atomic-enricher/atomic-enricher-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/atomic-enricher/atomic-enricher-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -2449,7 +2449,7 @@ data:extend {{
       {
         name = "aop-biochemical-facility",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/biochemical-facility.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biochemical-facility.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2490,7 +2490,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biochemical-facility/biochemical-facility-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 700,
@@ -2513,7 +2513,7 @@ data:extend {{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           }
@@ -2537,7 +2537,7 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -2551,7 +2551,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/biochemical-facility.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/biochemical-facility.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -2570,7 +2570,7 @@ data:extend {{
       {
         name = "aop-biomass-reactor",
         type = "burner-generator",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-reactor.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biomass-reactor.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2615,12 +2615,12 @@ data:extend {{
                   scale = 0.5,
                   stripes = {
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-1.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-1.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-2.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-2.png",
                           width_in_frames = 8,
                           height_in_frames = 2,
                       },
@@ -2638,19 +2638,19 @@ data:extend {{
                   blend_mode = "additive",
                   stripes = {
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-emission-1.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-emission-1.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-emission-2.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-emission-2.png",
                           width_in_frames = 8,
                           height_in_frames = 2,
                       },
                   },
                 },                   
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-shadow.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-shadow.png",
                     width = 900,
                     height = 500,
                     frame_count = 1,
@@ -2677,19 +2677,19 @@ data:extend {{
                   scale = 0.5,
                   stripes = {
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-1.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-1.png",
                           width_in_frames = 8,
                           height_in_frames = 8,
                       },
                       {
-                          filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-2.png",
+                          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-animation-2.png",
                           width_in_frames = 8,
                           height_in_frames = 2,
                       },
                   },
                 },                              
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/biomass-reactor/biomass-reactor-hr-shadow.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/biomass-reactor/biomass-reactor-hr-shadow.png",
                     width = 900,
                     height = 500,
                     frame_count = 1,
@@ -2724,7 +2724,7 @@ data:extend {{
       {
         name = "aop-electromechanic-facility",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/electromechanic-facility.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/electromechanic-facility.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2801,7 +2801,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-shadow.png",
                       priority = "high",
                       width = 1200,
                       height = 700,
@@ -2835,12 +2835,12 @@ data:extend {{
                               shift = util.by_pixel(0, -12),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -2873,7 +2873,7 @@ data:extend {{
       {
         name = "aop-greenhouse",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/greenhouse.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/greenhouse.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -2957,7 +2957,7 @@ data:extend {{
             animation = {
                 layers = {
                     {
-                        filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-shadow.png",
+                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-shadow.png",
                         priority = "high",
                         width = 700,
                         height = 500,
@@ -2992,12 +2992,12 @@ data:extend {{
                                 scale = 0.5,
                                 stripes = {
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-emission-1.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-emission-1.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     },
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-emission-2.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-emission-2.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     }
@@ -3017,12 +3017,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-color3-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-color3-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-color3-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/greenhouse/greenhouse-hr-color3-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3036,7 +3036,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/greenhouse.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/greenhouse.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -3055,7 +3055,7 @@ data:extend {{
       {
         name = "aop-hydraulic-plant",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/hydraulic-plant.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/hydraulic-plant.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -3130,7 +3130,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-shadow.png",
                       priority = "high",
                       width = 1200,
                       height = 800,
@@ -3153,7 +3153,7 @@ data:extend {{
                       shift = util.by_pixel(0, -14),
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           }
@@ -3178,7 +3178,7 @@ data:extend {{
                               shift = util.by_pixel(0, -14),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3197,7 +3197,7 @@ data:extend {{
                               shift = util.by_pixel(0, -14),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3217,7 +3217,7 @@ data:extend {{
                             shift = util.by_pixel(0, -14),
                             stripes = {
                                 {
-                                    filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-color.png",
+                                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-color.png",
                                     width_in_frames = 8,
                                     height_in_frames = 8
                                 }
@@ -3231,7 +3231,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/hydraulic-plant.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/hydraulic-plant.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -3250,7 +3250,7 @@ data:extend {{
       {
         name = "aop-lumber-mill",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/lumber-mill.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/lumber-mill.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -3327,7 +3327,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 700,
@@ -3350,12 +3350,12 @@ data:extend {{
                       scale = 0.45,
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -3379,12 +3379,12 @@ data:extend {{
                               scale = 0.45,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -3403,12 +3403,12 @@ data:extend {{
                               scale = 0.45,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/lumber-mill/lumber-mill-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -3422,7 +3422,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/lumber-mill.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/lumber-mill.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -3441,7 +3441,7 @@ data:extend {{
       {
         name = "aop-mineral-synthesizer",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-synthesizer.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mineral-synthesizer.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -3515,7 +3515,7 @@ data:extend {{
             animation = {
                 layers = {
                     {
-                        filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-shadow.png",
+                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-shadow.png",
                         priority = "high",
                         width = 500,
                         height = 350,
@@ -3549,12 +3549,12 @@ data:extend {{
                                 scale = 0.5,
                                 stripes = {
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-emission-1.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-emission-1.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     },
                                     {
-                                        filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-emission-2.png",
+                                        filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-emission-2.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     }
@@ -3573,12 +3573,12 @@ data:extend {{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-color2-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-color2-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-color2-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-color2-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3592,7 +3592,7 @@ data:extend {{
           
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/arc-furnace.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/arc-furnace.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {
@@ -3611,7 +3611,7 @@ data:extend {{
       {
         name = "aop-petrochemical-facility",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/petrochemical-facility.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/petrochemical-facility.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -3695,7 +3695,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 600,
@@ -3718,7 +3718,7 @@ data:extend {{
                       shift = util.by_pixel(0, -10),
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           }
@@ -3742,7 +3742,7 @@ data:extend {{
                               shift = util.by_pixel(0, -10),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3761,7 +3761,7 @@ data:extend {{
                               shift = util.by_pixel(0, -10),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -3774,7 +3774,7 @@ data:extend {{
       },
         working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/petrochemical-facility.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/petrochemical-facility.ogg", volume = 0.9},
           apparent_volume = 0.5,
         },
         created_effect = {
@@ -3793,7 +3793,7 @@ data:extend {{
       {
         name = "aop-quantum-assembler",
         type = "assembling-machine",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-assembler.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-assembler.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -3854,7 +3854,7 @@ data:extend {{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-shadow.png",
                       priority = "high",
                       width = 1200,
                       height = 700,
@@ -3877,12 +3877,12 @@ data:extend {{
                       shift = util.by_pixel(0, -16),
                       stripes = {
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -3906,12 +3906,12 @@ data:extend {{
                               shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -3930,12 +3930,12 @@ data:extend {{
                               shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -3968,7 +3968,7 @@ data:extend {{
       {
         name = "aop-quantum-computer",
         type = "lab",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-computer.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-computer.png",
         icon_size = 64,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = {
@@ -4014,7 +4014,7 @@ data:extend {{
             layers =
             {                  
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
                     width = 400,
                     height = 400,
                     frame_count = 60,
@@ -4024,7 +4024,7 @@ data:extend {{
                     scale = 0.5
                 },         
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-emission-1.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-computer/quantum-computer-hr-emission-1.png",
                     blend_mode = "additive",
                     draw_as_glow = true,
                     width = 400,
@@ -4036,7 +4036,7 @@ data:extend {{
                     scale = 0.5
                 },                
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
                     width = 700,
                     height = 600,
                     frame_count = 1,
@@ -4055,14 +4055,14 @@ data:extend {{
             layers =
             {
                 {
-                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
+                    filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
                     width = 400,
                     height = 400,
                     animation_speed = 0.5,
                     shift = util.by_pixel(0, -8.5),
                     scale = 0.5
                 },
-                {filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
+                {filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
                 width = 700,
                 height = 600,
                 animation_speed = 0.5,
@@ -4093,7 +4093,7 @@ data:extend {{
 {
         name = "aop-quantum-stabilizer",
         type = "beacon",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-stabilizer.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/quantum-stabilizer.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -4125,7 +4125,7 @@ data:extend {{
     animation = {
       layers = {
         {
-          filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-shadow.png",
+          filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-shadow.png",
           priority = "high",
           width = 900,
           height = 420,
@@ -4146,12 +4146,12 @@ data:extend {{
               scale = 0.5,
               stripes = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-1.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-1.png",
                       width_in_frames = 8,
                       height_in_frames = 8,
                   },
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-2.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-2.png",
                       width_in_frames = 8,
                       height_in_frames = 5,
                   },
@@ -4169,12 +4169,12 @@ data:extend {{
               blend_mode = "additive",
               stripes = {
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-1.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-1.png",
                       width_in_frames = 8,
                       height_in_frames = 8,
                   },
                   {
-                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-emission-2.png",
+                      filename = "__Age-of-Production-Graphics-Classic__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-emission-2.png",
                       width_in_frames = 8,
                       height_in_frames = 5,
                   },
@@ -4192,7 +4192,7 @@ data:extend {{
   
   working_sound =
         {
-          sound = {filename = "__Age-of-Production-Graphics__/sounds/quantum-stabilizer.ogg", volume = 0.2},
+          sound = {filename = "__Age-of-Production-Graphics-Classic__/sounds/quantum-stabilizer.ogg", volume = 0.2},
           apparent_volume = 0.3,
         },
         created_effect = {
