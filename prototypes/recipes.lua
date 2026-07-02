@@ -52,7 +52,7 @@ data:extend {
     {
     type = "recipe",
     name = "aop-yumako-planting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/yumako-planting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/yumako-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 600,
@@ -81,7 +81,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-jellynut-planting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/jellynut-planting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/jellynut-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 600,
@@ -109,7 +109,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-tree-planting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/tree-planting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/tree-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 1200,
@@ -129,7 +129,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-yumako-seed-removal",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/yumako-seed-removal.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/yumako-seed-removal.png",
     subgroup = "agriculture-processes",
     enabled = false,
     energy_required = 5,
@@ -154,7 +154,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-jellynut-seed-removal",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/jellynut-seed-removal.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/jellynut-seed-removal.png",
     subgroup = "agriculture-processes",
     enabled = false,
     energy_required = 5,
@@ -178,7 +178,7 @@ data:extend {
 {
         type = "item",
         name = "aop-biomass",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/biomass.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biomass.png",
         subgroup = "aop-biomass",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
         pick_sound = space_age_item_sounds.agriculture_inventory_pickup,
@@ -194,7 +194,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-biomass-from-wood",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-from-wood.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biomass-from-wood.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,
@@ -212,7 +212,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-biomass-from-seeds",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-from-seeds.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/biomass-from-seeds.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,
@@ -231,7 +231,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-nutrients-from-biomass",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/nutrients-from-biomass.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/nutrients-from-biomass.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,
@@ -254,18 +254,18 @@ data:extend {
     heat_capacity = "10kJ",
     base_color = {0.35, 0.15, 0.07},
     flow_color = {0.35, 0.15, 0.07},
-    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mineral-slurry.png",
     auto_barrel = false
 },
 {
         type = "item",
         name = "aop-deep-mineral",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-1.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/deep-mineral-1.png",
         pictures =
         {
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-1.png",   scale = 0.5},
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-2.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-3.png", scale = 0.5}
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/deep-mineral-1.png",   scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/deep-mineral-2.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/deep-mineral-3.png", scale = 0.5}
         },
         subgroup = "aop-core-mining",
         inventory_move_sound = item_sounds.resource_inventory_move,
@@ -278,12 +278,12 @@ data:extend {
     {
         type = "item",
         name = "aop-refined-mineral",
-        icon = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-1.png",
+        icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/refined-mineral-1.png",
         pictures =
         {
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-1.png",   scale = 0.5},
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-2.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-3.png", scale = 0.5}
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/refined-mineral-1.png",   scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/refined-mineral-2.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics-Classic__/graphics/icons/refined-mineral-3.png", scale = 0.5}
         },
         subgroup = "aop-core-mining",
         inventory_move_sound = item_sounds.resource_inventory_move,
@@ -296,7 +296,7 @@ data:extend {
     {
     type = "recipe",
     name = "aop-core-mining",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/core-mining.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/core-mining.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 0.25,
@@ -317,7 +317,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-mineral-slurry",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mineral-slurry.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -343,7 +343,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-mineral-slurry-processing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry-processing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/mineral-slurry-processing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -370,7 +370,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-vulcanusian-crushing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/vulcanusian-crushing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/vulcanusian-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -395,7 +395,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-nauvitian-crushing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/nauvitian-crushing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/nauvitian-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -418,7 +418,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-gleban-crushing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/gleban-crushing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/gleban-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -445,7 +445,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-fulgoran-crushing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/fulgoran-crushing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/fulgoran-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -468,7 +468,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-water-freezing",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/water-freezing.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/water-freezing.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 2,
@@ -489,7 +489,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-uranium-sifting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/uranium-sifting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/uranium-sifting.png",
     subgroup = "uranium-processing",
     enabled = false,
     energy_required = 24,
@@ -507,7 +507,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-calcite-synthesis",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/calcite-synthesis.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/calcite-synthesis.png",
     subgroup = "raw-material",
     enabled = false,
     energy_required = 2,
@@ -536,7 +536,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-stone-synthesis",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/stone-synthesis.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/stone-synthesis.png",
     subgroup = "raw-material",
     enabled = false,
     energy_required = 2,
@@ -564,7 +564,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-ammoniacal-iron-synthesis",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/ammoniacal-iron-synthesis.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/ammoniacal-iron-synthesis.png",
     subgroup = "raw-material",
     enabled = false,
     energy_required = 15,
@@ -593,7 +593,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-ammoniacal-copper-synthesis",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/ammoniacal-copper-synthesis.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/ammoniacal-copper-synthesis.png",
     subgroup = "raw-material",
     enabled = false,
     energy_required = 15,
@@ -622,7 +622,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-solid-fuel-melting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/solid-fuel-melting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/solid-fuel-melting.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 5,
@@ -640,7 +640,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-carbon-liquefaction",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/carbon-liquefaction.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/carbon-liquefaction.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 10,
@@ -660,7 +660,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-petroleum-gas-dehydrogenation",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/petroleum-gas-dehydrogenation.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/petroleum-gas-dehydrogenation.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 5,
@@ -680,7 +680,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-charcoal",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/charcoal.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/charcoal.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 4,
@@ -698,7 +698,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-wood-rotting",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/wood-rotting.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/wood-rotting.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 5,
@@ -717,7 +717,7 @@ data:extend {
 {
     type = "recipe",
     name = "aop-wooden-rails",
-    icon = "__Age-of-Production-Graphics__/graphics/icons/wooden-rails.png",
+    icon = "__Age-of-Production-Graphics-Classic__/graphics/icons/wooden-rails.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 0.5,
