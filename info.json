@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production-Classic",
-  "version": "1.9.3",
+  "version": "1.9.4",
   "title": "Age of Production (Classic)",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -10,7 +10,7 @@
     "base >= 2.0.41",
     "space-age >= 2.0.41",
     "PlanetsLib",
-    "Age-of-Production-Graphics = 1.9.0",
+    "Age-of-Production-Graphics-Classic = 1.9.3",
     "? foundry-restructuring",
     "? space_age_galore",
     "? early-agriculture",
@@ -45,7 +45,8 @@
     "? bobassembly",
     "? Better-Power-Armor-Grid",
     "! AoP-extended-planets",
-		"! Age-of-Production"
+		"! Age-of-Production",
+    "! Age-of-Production-Graphics"
 ],
 "space_travel_required": true
 }
