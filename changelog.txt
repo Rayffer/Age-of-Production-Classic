@@ -1,3 +1,10 @@
+Version: 1.8.5
+Date: 2026-06-26
+
+  Fixes:
+    - some buildings had access to all recipes when they were not supposed to.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.8.4
 Date: 2026-06-26
 

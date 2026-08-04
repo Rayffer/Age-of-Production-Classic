@@ -1531,7 +1531,7 @@ data:extend {{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         
-        crafting_categories = {"ammunition", "ammunition", "crafting", "ammunition", "crafting-with-fluid"},
+        crafting_categories = {"ammunition"},
         fluid_boxes =
         {
           {
@@ -2146,7 +2146,7 @@ data:extend {{
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         
-        crafting_categories = {"recycling", "recycling", "hand-crafting"},
+        crafting_categories = {"recycling"},
         crafting_speed = 1,
         energy_source =
         {
@@ -2273,7 +2273,7 @@ data:extend {{
         collision_box = {{-2.6, -2.6}, {2.6, 2.6}},
         selection_box = {{-3, -3}, {3, 3}},
         
-        crafting_categories = {"centrifuging", "advanced-centrifuging", "advanced-centrifuging", "centrifuging", "advanced-centrifuging", "crafting", "advanced-centrifuging", "crafting", "electromechanics", "advanced-centrifuging", "crafting-with-fluid"},
+        crafting_categories = {"centrifuging", "advanced-centrifuging"},
         fluid_boxes =
         {
           {
@@ -2464,7 +2464,7 @@ data:extend {{
         collision_box = {{-3.1, -3.1}, {3.1, 3.1}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         
-        crafting_categories = {"biochemistry", "biochemistry", "organic", "biochemistry", "organic", "hand-crafting", "biochemistry", "organic", "organic", "electromechanics"},
+        crafting_categories = {"biochemistry", "organic", "hand-crafting"},
         crafting_speed = 3,
         energy_source =
         {
@@ -2739,7 +2739,7 @@ data:extend {{
         collision_box = {{-4.1, -4.1}, {4.1, 4.1}},
         selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
         
-        crafting_categories = {"electromechanics", "electromechanics", "crafting", "electronics", "electromechanics", "pressing", "electromechanics", "organic", "electromechanics", "advanced-centrifuging", "crafting", "electromechanics", "organic", "electromechanics"},
+        crafting_categories = {"electromechanics"},
         fluid_boxes =
         {
           {
@@ -3070,7 +3070,7 @@ data:extend {{
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         
-        crafting_categories = {"hydraulics", "hydraulics", "chemistry", "hydraulics", "organic", "hydraulics", "chemistry", "cryogenics"},
+        crafting_categories = {"hydraulics"},
         fluid_boxes = {
             {
                 production_type = "input",
@@ -3265,7 +3265,7 @@ data:extend {{
         collision_box = {{-3.1, -3.1}, {3.1, 3.1}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         
-        crafting_categories = {"woodworking", "woodworking", "organic", "woodworking", "crafting", "woodworking", "organic"},
+        crafting_categories = {"woodworking"},
         fluid_boxes =
         {
           {
@@ -3456,7 +3456,7 @@ data:extend {{
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         
-        crafting_categories = {"synthesis", "synthesis", "chemistry", "synthesis", "crafting-with-fluid", "synthesis", "cryogenics", "chemistry"},
+        crafting_categories = {"synthesis"},
         crafting_speed = 1.5,
         energy_source =
         {
@@ -3626,7 +3626,7 @@ data:extend {{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         
-        crafting_categories = {"oil-processing", "petrochemistry", "petrochemistry", "oil-processing", "petrochemistry", "organic", "chemistry", "petrochemistry", "chemistry", "petrochemistry", "organic", "petrochemistry", "chemistry", "cryogenics", "petrochemistry", "organic"},
+        crafting_categories = {"oil-processing", "petrochemistry"},
         fluid_boxes =
     {
         {
@@ -3808,7 +3808,7 @@ data:extend {{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         
-        crafting_categories = {"quantum-assembling", "quantum-assembling", "crafting", "quantum-assembling", "crafting-with-fluid"},
+        crafting_categories = {"quantum-assembling"},
         fluid_boxes =
         {
           {

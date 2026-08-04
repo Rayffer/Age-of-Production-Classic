@@ -13,17 +13,6 @@ local function add_tech_effect(tech_name, effect)
     end
   end
 
-  add_crafting_categories("assembling-machine", "assembling-machine-1", {"advanced-centrifuging", "crafting", "advanced-centrifuging", "crafting", "electromechanics", "quantum-assembling", "crafting", "woodworking", "crafting", "electromechanics", "crafting", "electronics", "electromechanics", "pressing", "electromechanics", "ammunition", "crafting", "woodworking", "organic", "organic", "electromechanics"})
-  add_crafting_categories("assembling-machine", "assembling-machine-2", {"advanced-centrifuging", "crafting", "advanced-centrifuging", "crafting", "electromechanics", "quantum-assembling", "crafting", "woodworking", "crafting", "electromechanics", "crafting", "biochemistry", "organic", "woodworking", "organic", "petrochemistry", "organic", "electronics", "electromechanics", "pressing", "electromechanics", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging", "crafting-with-fluid", "ammunition", "crafting", "synthesis", "crafting-with-fluid", "organic", "electromechanics", "ammunition", "crafting-with-fluid", "biochemistry", "organic", "hand-crafting"})
-  add_crafting_categories("assembling-machine", "assembling-machine-3", {"advanced-centrifuging", "crafting", "advanced-centrifuging", "crafting", "electromechanics", "quantum-assembling", "crafting", "woodworking", "crafting", "electromechanics", "crafting", "biochemistry", "organic", "woodworking", "organic", "petrochemistry", "organic", "electronics", "electromechanics", "pressing", "electromechanics", "quantum-assembling", "crafting-with-fluid", "advanced-centrifuging", "crafting-with-fluid", "ammunition", "crafting", "synthesis", "crafting-with-fluid", "organic", "electromechanics", "ammunition", "crafting-with-fluid", "biochemistry", "organic", "hand-crafting"})
-  add_crafting_categories("assembling-machine", "chemical-plant", {"hydraulics", "chemistry", "hydraulics", "chemistry", "cryogenics", "petrochemistry", "organic", "chemistry", "petrochemistry", "chemistry", "petrochemistry", "chemistry", "cryogenics", "synthesis", "chemistry", "synthesis", "cryogenics", "chemistry"})
-  add_crafting_categories("assembling-machine", "centrifuge", {"advanced-centrifuging", "centrifuging"})
-  add_crafting_categories("assembling-machine", "oil-refinery", {"petrochemistry", "oil-processing"})
-  add_crafting_categories("assembling-machine", "biochamber", {"biochemistry", "organic", "biochemistry", "organic", "hand-crafting", "biochemistry", "organic", "woodworking", "organic", "woodworking", "organic", "hydraulics", "organic", "petrochemistry", "organic", "chemistry", "petrochemistry", "organic", "petrochemistry", "organic", "organic", "electromechanics", "organic", "electromechanics"})
-  add_crafting_categories("assembling-machine", "cryogenic-plant", {"hydraulics", "chemistry", "cryogenics", "petrochemistry", "chemistry", "cryogenics", "synthesis", "cryogenics", "chemistry", "metallurgy", "cryogenics"})
-  add_crafting_categories("assembling-machine", "electromagnetic-plant", {"electronics", "electromechanics"})
-  add_crafting_categories("assembling-machine", "foundry", {"pressing", "electromechanics", "metallurgy-2-the-return", "metallurgy", "cryogenics"})
-
 local function add_player_crafting_categories(categories)
     local entity = data.raw.character.character
     for _,category in pairs(categories) do
