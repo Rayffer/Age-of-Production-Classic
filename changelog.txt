@@ -1,3 +1,13 @@
+Version: 1.9.5
+Date: 2026-06-26
+
+  Changes:
+    - Update mod to use Age Of Production Graphics (Classic) after adding support for Factorio 2.1
+    - Added incompatibility with original Age Of Production Graphics.
+
+  Fixes:
+    - space age galore compat was using the old "additional_categories" field, ported to 2.1 format
+---------------------------------------------------------------------------------------------------
 Version: 1.9.4
 Date: 2026-06-26
 

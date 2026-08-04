@@ -11,8 +11,13 @@ for _, recipe in pairs(data.raw.recipe) do
                 break
             end
         end
+
         if not exclude then
-            recipe.additional_categories = {"quantum-assembling"}
+            if recipe.categories then
+                table.insert(recipe.categories, "quantum-assembling")
+            else
+                recipe.categories = {"crafting", "quantum-assembling"}
+            end
         end
     end
 end
@@ -20,7 +25,9 @@ end
 local function set_recipe_category(recipe_names, category)
   for _, recipe_name in pairs(recipe_names) do
     if data.raw.recipe[recipe_name] then
-      data.raw.recipe[recipe_name].category = category
+      table.insert(data.raw.recipe[recipe_name], category)
+    else
+      data.raw.recipe[recipe_name] = {"crafting", category}
     end
   end
 end

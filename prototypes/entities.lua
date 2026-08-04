@@ -849,6 +849,7 @@ data:extend {{
           results = {{type="item", name="aop-advanced-assembling-machine", amount=1}}
         },
         max_health = 500,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -1035,6 +1036,7 @@ data:extend {{
           results = {{type="item", name="aop-arc-furnace", amount=1}}
         },
         max_health = 350,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = furnace_circuit_wire_max_distance,
@@ -1143,6 +1145,7 @@ data:extend {{
           results = {{type="item", name="aop-armory", amount=1}}
         },
         max_health = 450,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -1330,6 +1333,7 @@ data:extend {{
           results = {{type="item", name="aop-transmitter", amount=1}}
         },
         max_health = 100,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         collision_box = {{-0.6, -0.6}, {0.6, 0.6}},
@@ -1439,6 +1443,7 @@ data:extend {{
           results = {{type="item", name="aop-core-miner", amount=1}}
         },
         max_health = 3000,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "big-explosion",
         surface_conditions =
@@ -1593,6 +1598,7 @@ data:extend {{
           results = {{type="item", name="aop-salvager", amount=1}}
         },
         max_health = 350,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = furnace_circuit_wire_max_distance,
@@ -1720,6 +1726,7 @@ data:extend {{
           results = {{type="item", name="aop-atomic-enricher", amount=1}}
         },
         max_health = 500,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -1911,6 +1918,7 @@ data:extend {{
           results = {{type="item", name="aop-biomass-reactor", amount=1}}
         },
         max_health = 300,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
@@ -2065,6 +2073,7 @@ data:extend {{
           results = {{type="item", name="aop-greenhouse", amount=1}}
         },
         max_health = 400,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -2247,6 +2256,7 @@ data:extend {{
           results = {{type="item", name="aop-hydraulic-plant", amount=1}}
         },
         max_health = 350,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -2442,6 +2452,7 @@ data:extend {{
           results = {{type="item", name="aop-lumber-mill", amount=1}}
         },
         max_health = 450,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -2633,6 +2644,7 @@ data:extend {{
           results = {{type="item", name="aop-synthesizer", amount=1}}
         },
         max_health = 300,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -2803,6 +2815,7 @@ data:extend {{
           results = {{type="item", name="aop-petrochemical-facility", amount=1}}
         },
         max_health = 400,
+        use_mirroring = true,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -2985,6 +2998,7 @@ data:extend {{
           results = {{type="item", name="aop-quantum-assembler", amount=1}}
         },
         max_health = 500,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -3160,6 +3174,7 @@ data:extend {{
             results = { { type = "item", name = "aop-quantum-computer", amount = 1 } }
         },
         max_health = 1500,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         surface_conditions =
@@ -3285,6 +3300,7 @@ data:extend {{
           results = {{type="item", name="aop-quantum-stabilizer", amount=1}}
         },
         max_health = 800,
+        use_mirroring = true,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         collision_box = {{-2.6, -2.6}, {2.6, 2.6}},
