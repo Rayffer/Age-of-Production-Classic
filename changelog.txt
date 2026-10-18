@@ -1,3 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.9.6
+Date: 2026-06-26
+
+  Fixes:
+    - ported fuel_category to fuel_categories
+---------------------------------------------------------------------------------------------------
 Version: 1.9.5
 Date: 2026-06-26
 
@@ -52,8 +59,13 @@ Date: 2026-05-29
   Changes:
     - Revamped all recipe categories for easier implementation of recipes and such + preparations for the eventual release of Factorio 2.1.
 
-  Notes:
-    - A major update is coming. This will implement new science packs and intermediates to make the AoP buildings fit more into the game.
+---------------------------------------------------------------------------------------------------
+Version: 1.8.5
+Date: 2026-06-26
+
+  Fixes:
+    - some buildings had access to all recipes when they were not supposed to.
+
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.4
 Date: 2026-06-26
