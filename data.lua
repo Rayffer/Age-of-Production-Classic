@@ -149,7 +149,7 @@ data.raw.recipe["carbon"].crafting_machine_tint =
     quaternary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000}
 }
 data.raw.recipe["tree-seed"].surface_conditions = nil
-data.raw.item["spoilage"].fuel_category = "aop-spoilage"
+data.raw.item["spoilage"].fuel_categories = { "nutrients", "aop-spoilage" }
 
 data:extend({
     {
