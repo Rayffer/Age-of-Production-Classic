@@ -21,60 +21,42 @@ local function add_tech_effect(tech_name, effect)
     tech.unit.ingredients = tech.unit.ingredients or {}
     table.insert(tech.unit.ingredients, science_pack)
   end
-
-  local function add_crafting_categories(entity_type, entity_name, categories)
+  
+  local function add_machine_crafting_categories(entity_type, entity_name, categories)
     local entity = data.raw[entity_type][entity_name]
-    if recipe and categories then
-        recipe.categories = recipe.categories or {"crafting"}
-        for _, cat in pairs(categories) do
-            table.insert(recipe.categories, cat)
+    for _,category in pairs(categories) do
+      table.insert(entity.crafting_categories, category)
+    end
+  end
+
+  local function is_in_table(table_, value)
+    for _, item in pairs(table_) do
+      if item == value then
+        return true
+      end
+    end
+    return false
+  end
+
+  local function add_crafting_categories(recipe_name, categories)
+    local recipe = data.raw.recipe[recipe_name]
+    recipe.categories = recipe.categories or {"crafting"}
+    for _, category_to_insert in pairs(categories) do
+        if not is_in_table(recipe.categories, category_to_insert) then
+            table.insert(recipe.categories, category_to_insert)
         end
     end
   end
 
 if mods["maraxsis"] then 
-    add_science_pack("aop-greenhouse", {"hydraulic-science-pack", 1})
-    add_tech_prerequisites("aop-greenhouse", "hydraulic-science-pack")
-
-    if settings.startup["aop-merge-hydro"].value then
-        data.raw["assembling-machine"]["aop-hydraulic-plant"].hidden= true
-        data.raw["item"]["aop-hydraulic-plant"].hidden =  true
-        data.raw["item"]["aop-hydraulic-plant"].hidden_in_factoriopedia =  true
-        data.raw["recipe"]["aop-hydraulic-plant"] = nil
-        data.raw["recipe"]["aop-hydraulic-plant-recycling"] = nil
-        data.raw["technology"]["aop-hydraulics"].hidden = true
-        data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
-        data.raw["assembling-machine"]["maraxsis-hydro-plant-extra-module-slots"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
-        if mods["Krastorio2-spaced-out"] then 
-            data.raw.technology["aop-core-mining"].prerequisites = {"promethium-science-pack", "maraxsis-research-vessel" }
-        else
-            data.raw.technology["aop-core-mining"].prerequisites = {"promethium-science-pack", "maraxsis-deepsea-research" }
-        end
-        end
-    add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics"})
-    add_crafting_categories("assembling-machine", "maraxsis-hydro-plant-extra-module-slots", {"hydraulics"})
-    add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"maraxsis-hydro-plant", "advanced-crafting", "biochamber", "chemistry", "foundry"})
-    add_science_pack("aop-core-mining", {"hydraulic-science-pack", 1})
-    add_tech_prerequisites("aop-core-mining", "maraxsis-sonar")
-    data.raw.recipe["aop-core-miner"].surface_conditions = {{property = "pressure", min = 400000, max = 400000}}
-        data.raw.recipe["aop-quantum-stabilizer"].ingredients = {
-        {type = "item", name = "quantum-processor",   amount = 500},
-        {type = "item", name = "maraxsis-conduit",       amount = 20},
-        {type = "item", name = "refined-concrete", amount = 1000},
-        {type = "item", name = "superconductor", amount = 500},
-        {type = "item", name = "supercapacitor",   amount = 250},
-        {type = "item", name = "tungsten-plate",       amount = 1000},
-        {type = "item", name = "promethium-asteroid-chunk", amount = 15},
-        {type = "item", name = "carbon-fiber", amount = 800},
-        {type = "item", name = "electric-engine-unit", amount = 300},
-        {type = "fluid", name = "fluoroketone-cold", amount = 300},
-                    }
-         data.raw.recipe["aop-petroleum-gas-dehydrogenation"].results = {
-                {type = "item", name = "carbon", amount = 2},
-                {type = "fluid", name = "hydrogen", amount = 4},
-         }
-        data.raw.planet["maraxsis"].surface_properties["deep-crustal-stability"] = 4700
-        data.raw.planet["maraxsis-trench"].surface_properties["deep-crustal-stability"] = 4700
+    add_machine_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics"})
+    add_machine_crafting_categories("assembling-machine", "maraxsis-hydro-plant-extra-module-slots", {"hydraulics"})
+    add_machine_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"maraxsis-hydro-plant"})
+    -- add_crafting_categories("maraxsis-petroleum-gas-cracking", {"petrochemistry"})
+    add_crafting_categories("maraxsis-fat-man", {"advanced-centrifuging"})
+    add_crafting_categories("maraxsis-holmium-recrystalization", {"synthesis"})
+    data.raw.planet["maraxsis"].surface_properties["deep-crustal-stability"] = 4700
+    data.raw.planet["maraxsis-trench"].surface_properties["deep-crustal-stability"] = 4700
     data:extend {{
             type = "recipe",
             name = "aop-maraxsian-crushing",
